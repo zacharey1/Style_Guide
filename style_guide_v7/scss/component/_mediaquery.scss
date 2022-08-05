@@ -1,3 +1,6 @@
+@use '../utilities/mixins' as *;
+@use '../utilities/variables' as *;
+
 @media (min-width: $break-med) {
 
     .container {

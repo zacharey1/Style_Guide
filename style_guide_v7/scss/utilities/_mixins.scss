@@ -1,3 +1,5 @@
+@use '../utilities/variables' as *;
+
 @mixin img-display {
   display: block;
   margin-left: auto;

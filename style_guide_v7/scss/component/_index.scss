@@ -1,7 +1,7 @@
-@import 'mediaquery',
-        'basestyle',
-        'grid',
-        'navigation',
-        'button',
-        'form',
-        'images';
+@use 'mediaquery';
+@use 'basestyle';
+@use    'grid';
+@use     'navigation';
+@use     'button';
+@use    'form';
+@use     'images'; 
