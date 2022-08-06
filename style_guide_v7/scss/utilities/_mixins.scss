@@ -8,7 +8,7 @@
 
 @mixin btn-hover {
   &:hover {
-    color: $btn-light;
+    background-color: $btn-light;
     @content;
   }
 }

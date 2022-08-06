@@ -6,8 +6,11 @@ $purple: #927bc1;
 $red: #e4757a;
 
 //Button color
-$btn-color: #32d7f4;
-$btn-light: lighten($btn-color, 15%);
+$dflt-btn-light: lighten($seablue, 15%);
+$err-btn-light: lighten($red, 15%);
+$info-btn-light: lighten($purple, 15%);
+$succss-btn-light: lighten(#63cc82, 15%);
+$warn-btn-light: lighten(#fd7856, 15%);
 
 //Media queries
 $break-med: 768px;

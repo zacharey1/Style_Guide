@@ -10,25 +10,39 @@
     text-transform: uppercase;
     border-radius: 5px;
     transition-duration: .5s;
-    @include btn-hover;
   }
   
   .default {
     background-color: $seablue;
+    &:hover {
+      background-color: $dflt-btn-light;
+    }
   }
   
   .error {
     background-color: $red;
+    &:hover {
+      background-color: $err-btn-light;
+    }
   }
   
   .info {
     background-color: $purple;
+    &:hover {
+      background-color: $info-btn-light;
+    }
   }
   
   .success {
     background-color: #63cc82;
+    &:hover {
+      background-color: $succss-btn-light;
+    }
   }
   
   .warning {
     background-color: #fd7856;
+    &:hover {
+      background-color: $warn-btn-light;
+    }
   }
